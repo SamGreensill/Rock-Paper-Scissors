@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(158, 158, 158);
+}
+
+h2 {
+    text-align: center;
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex; 
+    justify-content: center;  
+    align-items: center;  
+    height: 20vh;  /*This is for the overall height of the buttons*/
+}
+
+.button-container {
+    display: flex; 
+    justify-content: top; 
+}
+
+button {
+    padding: 10px; 
+    margin: 10px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
